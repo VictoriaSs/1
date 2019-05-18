@@ -1,12 +1,11 @@
 package Task_4;
 
-public class Binary{
-        public static void main (String[] args){
-        byte b = (byte) 192;
-        System.out.println(Integer.toBinaryString((int)b));
-        System.out.println((int)b);
+import java.util.Scanner;
+
+public class Binary {
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                String bin = sc.next();
+                System.out.println(Integer.parseInt(bin, 2));
         }
 }
-
-
-
